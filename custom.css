@@ -1,0 +1,30 @@
+img{
+	max-width: 100%;
+}
+article {
+	padding-top: 20px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #000;
+}
+.side_bar img{
+	border-bottom: 5px solid #000;
+	margin-bottom:20px;
+}
+@media (max-width: 800px){
+	.side_bar{
+		display: none;
+	}
+}
+.footer{
+	color:#FFFACD;
+	font-size: 18px;
+	
+	background-color: 	#C0C0C0;
+	height: 100px;
+	padding-top: 30px;
+	
+}
+ 
+article:last-child {
+	border-bottom: none;
+}
