@@ -7,6 +7,7 @@
 	<title> </title>
 	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href="<?= get_template_directory_uri();?>/custom.css" rel="stylesheet">
+   <?php wp_head(); ?>
 </head>
  
 <body>
